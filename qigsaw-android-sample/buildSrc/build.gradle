@@ -14,7 +14,7 @@ applyRootProjectProperties()
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "com.android.tools.build:gradle:${AGP_VERSION}"
-    implementation "com.iqiyi.android.qigsaw:gradle-plugin:${VERSION_NAME}"
+    //implementation "com.iqiyi.android.qigsaw:gradle-plugin:${VERSION_NAME}"
     implementation 'com.squareup.okhttp3:okhttp:3.11.0'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
